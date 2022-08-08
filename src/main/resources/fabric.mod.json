@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "morefps",
+  "version": "${version}",
+  "name": "MoreFPS",
+  "description": "allows for higher fps limits",
+  "authors": [
+    "uku"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "morefps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "minecraft": "1.19.x"
+  }
+}
